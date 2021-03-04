@@ -1,0 +1,49 @@
+  /* p {color: red} */
+  header {
+    background-image: url(img/外観.png);
+    background-repeat: no-repeat;
+    background-size: auto　100%;
+    background-position: center;
+    height: 80vh;
+   }
+   .logo h1 {
+       margin-left: 100px;
+       float: left;
+   }
+   .float ul {
+       display: inline-block;
+       margin-top: 25px;
+       margin-right: 100px;
+       float: right;
+   }
+   .float li {
+       display: inline-block;
+       list-style: none;
+       margin-right: 40px;
+       padding: 10px;
+       background: #white;
+       color: #fff;
+       border-bottom: 2px solid #2ac5b3;
+   }
+   @media screen and (max-width: 767px) {
+    div.float {
+        text-align: center;
+    }
+    .float h1 {
+        display: block;
+        margin: 30px auto;
+        float: none;
+    }
+    .float ul {
+        width: 150px;
+        margin: 50px auto;
+        display: block;
+        float: none;
+        padding-left: 0;
+    }
+    .float li {
+        display: block;
+        margin: 5px auto;
+        border-bottom: 2px solid #2ac5b3;
+    }
+}
